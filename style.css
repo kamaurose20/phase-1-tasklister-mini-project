@@ -1,23 +1,40 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "times roman";
 }
 
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(58, 51, 52), rgb(77, 70, 77));
 }
 
 button {
   font-size: 7px;
 }
+.delete-button {
+  font-size: 12px;
+  padding: 2px 5px;
+  margin-left: 5px;
+}
+
+.high {
+  color: red
+}
+
+.medium {
+  color: orange
+}
+
+.low {
+  color: rgb(76, 146, 76)
+}
 
 #main-content {
-  position: relative;
+  position: absolute;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   border: 1px solid #333;
